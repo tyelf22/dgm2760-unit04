@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* HEADER */
+
+header {
+    background-image: url(./images/wave.jpg);
+    background-position: bottom;
+    height: 120px;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header > h1,
+header > h2 {
+    display: absolute;
+    padding: 10px 2%;
+}
+
+/* MAIN */
+
+.main {
+    margin: 0 2%;
+}
+
+.main ul {
+    margin: 0 6%;
+}
+
+.main h3,
+.main h2 {
+    margin-top: 20px;
+}
+
+.main button {
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background: lightblue;
+}
+
+.main p {
+    margin-top: 20px;
+    color: #0020C9;
+    font-size: 24px;
+}
+
+
+
+
+
+
+/* FOOTER */
+
+footer{
+   position: fixed;
+   bottom: 0;
+   background: #0020C9;
+   width: 100%;
+   height: 25px;
+   text-align: center;
+   line-height: 25px;
+   color: white;
+}
+
